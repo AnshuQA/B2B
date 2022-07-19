@@ -1,0 +1,4 @@
+INFO    2022-06-30 12:52:55,181 [main] base.BaseTest  - Config properties loaded !!!
+INFO    2022-06-30 12:52:55,182 [main] base.BaseTest  - OR properties loaded !!!
+INFO    2022-06-30 12:52:57,578 [main] base.BaseTest  - Launching Chrome
+INFO    2022-06-30 12:53:05,401 [main] base.BaseTest  - Navigating to : https://fincartassociate.com/B2BLanding.html?t=570b7ee2-a212-4b2b-a05f-8f609cfb19d4

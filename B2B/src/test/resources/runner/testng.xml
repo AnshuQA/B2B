@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestNG Suite">
+
+
+<listeners>
+    
+    <listener class-name="extentlisteners.ExtentListeners" />
+     <listener class-name="org.uncommons.reportng.HTMLReporter" />
+  
+  </listeners>
+  
+	
+	
+	
+	
+	
+	<test name="Enpanelment Test">
+		<classes>
+			<class name="testCases.EnpanelmentTest" />
+
+		</classes>
+		
+	</test> <!-- Test -->
+	
+	<test name="B2BEnquiryTest">
+		<classes>
+			<class name="testCases.B2BEnquiryTest" />
+
+		</classes>
+		
+	</test> <!-- Test -->
+	<test name="B2BempanelmentTest">
+		<classes>
+			<class name="testCases.B2BempanelmentTest" />
+
+		</classes>
+		
+	</test> <!-- Test -->
+	
+	
+	
+	
+	
+	
+	
+
+	
+
+</suite> <!-- Suite -->

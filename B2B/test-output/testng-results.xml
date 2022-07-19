@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-07T12:59:02Z" name="TestNG Suite" finished-at="2022-07-07T13:20:10Z" duration-ms="1267800">
+    <groups>
+    </groups>
+    <test started-at="2022-07-07T12:59:02Z" name="Enpanelment Test" finished-at="2022-07-07T13:02:30Z" duration-ms="208056">
+      <class name="testCases.EnpanelmentTest">
+        <test-method signature="epanelLogin(java.lang.String, java.lang.String)[pri:1, instance:testCases.EnpanelmentTest@1a1da881]" started-at="2022-07-07T12:59:03Z" name="epanelLogin" data-provider="dp" finished-at="2022-07-07T12:59:08Z" duration-ms="5467" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testb2b30jun22@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[fAwJuH]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- epanelLogin -->
+        <test-method signature="arnYes(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:testCases.EnpanelmentTest@1a1da881]" started-at="2022-07-07T12:59:08Z" name="arnYes" data-provider="dp" finished-at="2022-07-07T13:00:38Z" duration-ms="90151" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testb2b30jun22@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8.888888881E9]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TNEPT0000A]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1.111111111E9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- arnYes -->
+        <test-method signature="arnNo(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:testCases.EnpanelmentTest@1a1da881]" started-at="2022-07-07T13:00:38Z" name="arnNo" data-provider="dp" finished-at="2022-07-07T13:02:00Z" duration-ms="82211" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testb2b30jun22@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8.888888881E9]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TNEPT0000A]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1.111111111E9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- arnNo -->
+        <test-method signature="editEnpanelment()[pri:4, instance:testCases.EnpanelmentTest@1a1da881]" started-at="2022-07-07T13:02:00Z" name="editEnpanelment" finished-at="2022-07-07T13:02:30Z" duration-ms="30075" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editEnpanelment -->
+      </class> <!-- testCases.EnpanelmentTest -->
+    </test> <!-- Enpanelment Test -->
+    <test started-at="2022-07-07T13:02:31Z" name="B2BEnquiryTest" finished-at="2022-07-07T13:12:06Z" duration-ms="575026">
+      <class name="testCases.B2BEnquiryTest">
+        <test-method signature="leadAssigntoYusraTest()[pri:1, instance:testCases.B2BEnquiryTest@60d8c0dc]" started-at="2022-07-07T13:02:31Z" name="leadAssigntoYusraTest" finished-at="2022-07-07T13:02:40Z" duration-ms="9350" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- leadAssigntoYusraTest -->
+        <test-method signature="subBrokarActivityTest()[pri:2, instance:testCases.B2BEnquiryTest@60d8c0dc]" started-at="2022-07-07T13:02:40Z" name="subBrokarActivityTest" finished-at="2022-07-07T13:06:12Z" duration-ms="211507" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subBrokarActivityTest -->
+        <test-method signature="requestforreviewTest()[pri:3, instance:testCases.B2BEnquiryTest@60d8c0dc]" started-at="2022-07-07T13:06:12Z" name="requestforreviewTest" finished-at="2022-07-07T13:06:32Z" duration-ms="20435" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- requestforreviewTest -->
+        <test-method signature="leadChangeStatusTest()[pri:4, instance:testCases.B2BEnquiryTest@60d8c0dc]" started-at="2022-07-07T13:06:32Z" name="leadChangeStatusTest" finished-at="2022-07-07T13:09:13Z" duration-ms="161072" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- leadChangeStatusTest -->
+        <test-method signature="filterTest()[pri:5, instance:testCases.B2BEnquiryTest@60d8c0dc]" started-at="2022-07-07T13:09:13Z" name="filterTest" finished-at="2022-07-07T13:12:06Z" duration-ms="172647" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filterTest -->
+      </class> <!-- testCases.B2BEnquiryTest -->
+    </test> <!-- B2BEnquiryTest -->
+    <test started-at="2022-07-07T13:12:06Z" name="B2BempanelmentTest" finished-at="2022-07-07T13:20:10Z" duration-ms="484214">
+      <class name="testCases.B2BempanelmentTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.B2BempanelmentTest@5fcacc0]" started-at="2022-07-07T12:58:58Z" name="setUp" finished-at="2022-07-07T12:59:02Z" duration-ms="4138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="recordActivityTest()[pri:1, instance:testCases.B2BempanelmentTest@5fcacc0]" started-at="2022-07-07T13:12:06Z" name="recordActivityTest" finished-at="2022-07-07T13:16:35Z" duration-ms="268709" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recordActivityTest -->
+        <test-method signature="basicTranningTest()[pri:2, instance:testCases.B2BempanelmentTest@5fcacc0]" started-at="2022-07-07T13:16:35Z" name="basicTranningTest" finished-at="2022-07-07T13:17:33Z" duration-ms="58108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basicTranningTest -->
+        <test-method signature="filterTest()[pri:3, instance:testCases.B2BempanelmentTest@5fcacc0]" started-at="2022-07-07T13:17:33Z" name="filterTest" finished-at="2022-07-07T13:20:10Z" duration-ms="157385" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filterTest -->
+      </class> <!-- testCases.B2BempanelmentTest -->
+    </test> <!-- B2BempanelmentTest -->
+  </suite> <!-- TestNG Suite -->
+</testng-results>

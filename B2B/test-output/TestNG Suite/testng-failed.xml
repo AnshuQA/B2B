@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestNG Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="extentlisteners.ExtentListeners"/>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+  </listeners>
+  <test thread-count="5" name="B2BempanelmentTest(failed)">
+    <classes>
+      <class name="testCases.B2BempanelmentTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="basicTranningTest"/>
+          <include name="recordActivityTest"/>
+          <include name="filterTest"/>
+        </methods>
+      </class> <!-- testCases.B2BempanelmentTest -->
+    </classes>
+  </test> <!-- B2BempanelmentTest(failed) -->
+</suite> <!-- Failed suite [TestNG Suite] -->
